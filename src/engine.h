@@ -1,15 +1,15 @@
-//engine.h
 #ifndef ENGINE_H
 #define ENGINE_H
 
 class Engine {
 public:
-	bool initialize();
-	void run();
-	void stop();
+	bool _initialize();
+	void _run();
+	void _process();
+	void _physics_process();
+	void _stop();
 private:
-	bool isRunning;
-	void update(float deltaTime);
+	bool _quit;
 
 };
 

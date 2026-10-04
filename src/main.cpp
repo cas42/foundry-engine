@@ -3,7 +3,7 @@
 
 int main() {
 	Engine newEngine;
-	if (!newEngine.initialize()) {
+	if (!newEngine._initialize()) {
 		std::cout <<"Failure!\n";
 		return -1;
 	}
